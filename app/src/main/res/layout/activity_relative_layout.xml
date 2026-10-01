@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:background="#F0F0F0">
+
+    <ImageView
+        android:id="@+id/iconTask"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/images" />
+
+    <ImageView
+        android:id="@+id/iconStatus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/tvTaskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/iconStatus"
+        android:layout_toRightOf="@id/iconTask"
+        android:text="tytuł"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTaskDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTaskTitle"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/iconStatus"
+        android:layout_toRightOf="@id/iconTask"
+        android:text="Jakis tam opis"
+        android:textSize="13sp" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layouty"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="13dp" />
+
+        <Button
+            android:id="@+id/btnLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout" />
+
+        <Button
+            android:id="@+id/btnConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constraint Layout" />
+
+        <Button
+            android:id="@+id/btnRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout" />
+
+        <Button
+            android:id="@+id/btnFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout" />
+
+        <Button
+            android:id="@+id/btnTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout" />
+
+        <Button
+            android:id="@+id/btnScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scroll View" />
+
+        <Button
+            android:id="@+id/btnRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View + Card View" />
+
+    </LinearLayout>
+</ScrollView>
